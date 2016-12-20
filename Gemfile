@@ -53,5 +53,4 @@ gem 'pry'
 gem "pry-rails"
 gem 'awesome_print'
 gem 'oauth2'
-
 gem 'rename'
