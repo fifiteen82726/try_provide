@@ -52,3 +52,4 @@ gem 'doorkeeper'
 gem 'pry'
 gem "pry-rails"
 gem 'awesome_print'
+gem 'oauth2'

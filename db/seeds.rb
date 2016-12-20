@@ -7,4 +7,6 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
 User.destroy_all
-User.create(email: "doorkeeper@gmail.com", password: "doorkeeper")
+User.create(email: "doorkeeper@gmail.com", password: "123123123")
+User.create(email: "client@gmail.com", password: "123123123")
+

@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :tasks
+  root 'home#index' 
   use_doorkeeper
   devise_for :users
   # The priority is based upon order of creation: first created -> highest priority.
