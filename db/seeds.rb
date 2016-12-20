@@ -10,3 +10,7 @@ User.destroy_all
 User.create(email: "doorkeeper@gmail.com", password: "123123123")
 User.create(email: "client@gmail.com", password: "123123123")
 
+Task.destroy_all
+10.times.each do |i|
+	Task.create(name: "Task No.#{i}")
+end
