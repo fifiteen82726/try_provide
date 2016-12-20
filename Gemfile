@@ -48,3 +48,7 @@ end
 gem 'devise'
 gem 'doorkeeper'
 
+# Better Rails console
+gem 'pry'
+gem "pry-rails"
+gem 'awesome_print'
