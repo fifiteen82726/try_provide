@@ -1,5 +1,9 @@
 Rails.application.routes.draw do
-  resources :tasks
+  resources :tasks do
+    collection do
+      match '/:action', :via => [:post]
+    end
+  end
   root 'home#index' 
   use_doorkeeper
   devise_for :users

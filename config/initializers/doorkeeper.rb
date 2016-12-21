@@ -26,7 +26,7 @@ Doorkeeper.configure do
 
   # Access token expiration time (default 2 hours)
   # access_token_expires_in 2.hours
-  access_token_expires_in 5.minutes
+  access_token_expires_in 2.hours
 
   # Issue access tokens with refresh token (disabled by default)
   use_refresh_token
